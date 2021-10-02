@@ -1,0 +1,8 @@
+<%= form_for @tweet do |t| %>
+    <div class="field">
+    <%= t.label :content %>
+    <%= t.text_field :content, :size => 140 %>
+    </div>
+    <%= t.submit "編集する" %>
+<% end %>
+<%= link_to "Hug一覧に戻る", tweets_path %>

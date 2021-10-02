@@ -1,0 +1,27 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.footer {
+    background-color: #7a757a;
+    color: #fff;
+    height: 100px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
